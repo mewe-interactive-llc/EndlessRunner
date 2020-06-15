@@ -69,12 +69,12 @@ void AEndlessRunnerCharacter::SetupPlayerInputComponent(class UInputComponent* P
 
 void AEndlessRunnerCharacter::TouchStarted(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		Jump();
+	Jump();
 }
 
 void AEndlessRunnerCharacter::TouchStopped(ETouchIndex::Type FingerIndex, FVector Location)
 {
-		StopJumping();
+	StopJumping();
 }
 
 
